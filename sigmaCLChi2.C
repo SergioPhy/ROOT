@@ -36,7 +36,6 @@ double GetChi2ForCL(double CL){
 	func->GetQuantiles(1,chi2Y,chi2X);
 	
 	return chi2Y[0];
-
 }
 
 int main(){
